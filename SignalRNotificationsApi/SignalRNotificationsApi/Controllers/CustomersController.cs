@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
-using SignalRNotificationsApi.Core;
+using SignalRNotificationsApi.Hubs;
+using SignalRNotificationsApi.Infra;
+using SignalRNotificationsApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -44,7 +46,8 @@ namespace SignalRNotificationsApi.Controllers
 
             await _repository.Add(customer);
 
-            await _notifyHub.Clients.All.SendAsync("Notify", $"Customer: {customer.Name} created at {DateTime.Now.ToShortDateString()}");
+            await _notifyHub.Clients.All.SendAsync("Notify",
+                $"Customer: {customer.Name} created at {DateTime.Now.ToShortDateString()}");
 
             return CreatedAtAction("GetCustomer", new { id = customer.Id }, customer);
         }

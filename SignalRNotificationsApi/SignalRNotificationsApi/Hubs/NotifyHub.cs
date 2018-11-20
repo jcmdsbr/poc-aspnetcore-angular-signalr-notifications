@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.SignalR;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using Microsoft.AspNetCore.SignalR;
 
-namespace SignalRNotificationsApi.Core
+namespace SignalRNotificationsApi.Hubs
 {
     public class NotifyHub : Hub
     {

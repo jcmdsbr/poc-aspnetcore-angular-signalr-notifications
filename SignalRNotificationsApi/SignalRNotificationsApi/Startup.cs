@@ -3,7 +3,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using SignalRNotificationsApi.Core;
+using SignalRNotificationsApi.Hubs;
+using SignalRNotificationsApi.Infra;
 
 namespace SignalRNotificationsApi
 {
@@ -18,10 +19,8 @@ namespace SignalRNotificationsApi
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddCors(o => o.AddPolicy("CorsPolicy", builder =>
-                {
-                    builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin().AllowCredentials();
-                }));
+            services.AddCors(o => o.AddPolicy("CorsPolicy",
+                builder => { builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin().AllowCredentials(); }));
 
             // Setup options with DI
             services.AddOptions();
@@ -40,10 +39,7 @@ namespace SignalRNotificationsApi
 
             app.UseHttpsRedirection();
 
-            app.UseSignalR(routes =>
-            {
-                routes.MapHub<NotifyHub>("/notifications");
-            });
+            app.UseSignalR(routes => { routes.MapHub<NotifyHub>("/notifications"); });
 
             app.UseMvc();
         }
