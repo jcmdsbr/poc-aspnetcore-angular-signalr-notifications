@@ -11,10 +11,10 @@ namespace SignalRNotificationsApi.Controllers
     [ApiController]
     public class CustomersController : ControllerBase
     {
-        private readonly IHubContext<NotifyHub, ITypedHubClient> _notifyHub;
+        private readonly IHubContext<NotifyHub> _notifyHub;
         private readonly ICustomerRepository _repository;
 
-        public CustomersController(ICustomerRepository repository, IHubContext<NotifyHub, ITypedHubClient> notifyHub)
+        public CustomersController(ICustomerRepository repository, IHubContext<NotifyHub> notifyHub)
         {
             _repository = repository;
             _notifyHub = notifyHub;
@@ -44,8 +44,7 @@ namespace SignalRNotificationsApi.Controllers
 
             await _repository.Add(customer);
 
-            await _notifyHub.Clients.All.BroadcastMessage(
-                $"Customer: {customer.Name} created at {DateTime.Now.ToShortDateString()}");
+            await _notifyHub.Clients.All.SendAsync("Notify", $"Customer: {customer.Name} created at {DateTime.Now.ToShortDateString()}");
 
             return CreatedAtAction("GetCustomer", new { id = customer.Id }, customer);
         }
