@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using SignalRNotificationsApi.Models;
+using SignalRNotifications.Models;
 
-namespace SignalRNotificationsApi.Infra
+namespace SignalRNotifications.Infra
 {
     public interface ICustomerRepository
     {

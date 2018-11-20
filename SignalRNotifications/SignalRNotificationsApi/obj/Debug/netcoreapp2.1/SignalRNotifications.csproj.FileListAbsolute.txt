@@ -1,0 +1,13 @@
+C:\Projetos\aspnet\Git\SignalRNotifications\SignalRNotifications\SignalRNotificationsApi\bin\Debug\netcoreapp2.1\SignalRNotifications.deps.json
+C:\Projetos\aspnet\Git\SignalRNotifications\SignalRNotifications\SignalRNotificationsApi\bin\Debug\netcoreapp2.1\SignalRNotifications.runtimeconfig.json
+C:\Projetos\aspnet\Git\SignalRNotifications\SignalRNotifications\SignalRNotificationsApi\bin\Debug\netcoreapp2.1\SignalRNotifications.runtimeconfig.dev.json
+C:\Projetos\aspnet\Git\SignalRNotifications\SignalRNotifications\SignalRNotificationsApi\bin\Debug\netcoreapp2.1\SignalRNotifications.dll
+C:\Projetos\aspnet\Git\SignalRNotifications\SignalRNotifications\SignalRNotificationsApi\bin\Debug\netcoreapp2.1\SignalRNotifications.pdb
+C:\Projetos\aspnet\Git\SignalRNotifications\SignalRNotifications\SignalRNotificationsApi\obj\Debug\netcoreapp2.1\SignalRNotifications.csproj.CoreCompileInputs.cache
+C:\Projetos\aspnet\Git\SignalRNotifications\SignalRNotifications\SignalRNotificationsApi\obj\Debug\netcoreapp2.1\SignalRNotifications.RazorAssemblyInfo.cache
+C:\Projetos\aspnet\Git\SignalRNotifications\SignalRNotifications\SignalRNotificationsApi\obj\Debug\netcoreapp2.1\SignalRNotifications.RazorAssemblyInfo.cs
+C:\Projetos\aspnet\Git\SignalRNotifications\SignalRNotifications\SignalRNotificationsApi\obj\Debug\netcoreapp2.1\SignalRNotifications.AssemblyInfoInputs.cache
+C:\Projetos\aspnet\Git\SignalRNotifications\SignalRNotifications\SignalRNotificationsApi\obj\Debug\netcoreapp2.1\SignalRNotifications.AssemblyInfo.cs
+C:\Projetos\aspnet\Git\SignalRNotifications\SignalRNotifications\SignalRNotificationsApi\obj\Debug\netcoreapp2.1\SignalRNotifications.RazorTargetAssemblyInfo.cache
+C:\Projetos\aspnet\Git\SignalRNotifications\SignalRNotifications\SignalRNotificationsApi\obj\Debug\netcoreapp2.1\SignalRNotifications.dll
+C:\Projetos\aspnet\Git\SignalRNotifications\SignalRNotifications\SignalRNotificationsApi\obj\Debug\netcoreapp2.1\SignalRNotifications.pdb

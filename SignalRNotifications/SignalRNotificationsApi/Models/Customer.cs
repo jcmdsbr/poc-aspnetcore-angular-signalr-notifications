@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SignalRNotificationsApi.Models
+namespace SignalRNotifications.Models
 {
     public class Customer
     {

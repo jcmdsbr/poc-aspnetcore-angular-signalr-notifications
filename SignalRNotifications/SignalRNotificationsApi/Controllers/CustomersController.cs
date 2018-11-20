@@ -1,13 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.SignalR;
-using SignalRNotificationsApi.Hubs;
-using SignalRNotificationsApi.Infra;
-using SignalRNotificationsApi.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
+using SignalRNotifications.Hubs;
+using SignalRNotifications.Infra;
+using SignalRNotifications.Models;
 
-namespace SignalRNotificationsApi.Controllers
+namespace SignalRNotifications.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using SignalRNotificationsApi.Hubs;
-using SignalRNotificationsApi.Infra;
+using SignalRNotifications.Hubs;
+using SignalRNotifications.Infra;
 
-namespace SignalRNotificationsApi
+namespace SignalRNotifications
 {
     public class Startup
     {

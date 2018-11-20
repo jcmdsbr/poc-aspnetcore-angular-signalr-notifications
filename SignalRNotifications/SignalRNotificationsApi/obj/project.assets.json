@@ -12536,11 +12536,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\aspnet\\Git\\SignalRNotifications\\src\\SignalRNotifications\\SignalRNotificationsApi\\SignalRNotificationsApi.csproj",
-      "projectName": "SignalRNotificationsApi",
-      "projectPath": "C:\\Projetos\\aspnet\\Git\\SignalRNotifications\\src\\SignalRNotifications\\SignalRNotificationsApi\\SignalRNotificationsApi.csproj",
+      "projectUniqueName": "C:\\Projetos\\aspnet\\Git\\SignalRNotifications\\SignalRNotifications\\SignalRNotificationsApi\\SignalRNotifications.csproj",
+      "projectName": "SignalRNotifications",
+      "projectPath": "C:\\Projetos\\aspnet\\Git\\SignalRNotifications\\SignalRNotifications\\SignalRNotificationsApi\\SignalRNotifications.csproj",
       "packagesPath": "C:\\Users\\Jean Carlos\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\aspnet\\Git\\SignalRNotifications\\src\\SignalRNotifications\\SignalRNotificationsApi\\obj\\",
+      "outputPath": "C:\\Projetos\\aspnet\\Git\\SignalRNotifications\\SignalRNotifications\\SignalRNotificationsApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

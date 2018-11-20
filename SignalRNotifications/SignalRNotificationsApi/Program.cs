@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace SignalRNotificationsApi
+namespace SignalRNotifications
 {
     public class Program
     {

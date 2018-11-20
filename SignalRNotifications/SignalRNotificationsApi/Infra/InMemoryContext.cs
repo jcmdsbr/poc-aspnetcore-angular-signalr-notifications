@@ -1,7 +1,7 @@
 ﻿using System.Collections.ObjectModel;
-using SignalRNotificationsApi.Models;
+using SignalRNotifications.Models;
 
-namespace SignalRNotificationsApi.Infra
+namespace SignalRNotifications.Infra
 {
     public sealed class InMemoryContext
     {
