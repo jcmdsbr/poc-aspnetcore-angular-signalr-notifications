@@ -1,10 +1,30 @@
 <div class="layout-topbar">
-  <div class="fluid-container">
-      <div class="row">
-          <div class="col-md-10">
-              <div style="color:white" class="col-md-3">SignalR Notifications</div>
-          </div>
-      </div>
-  </div>
+    <div class="fluid-container">
+        <div class="row">
+            <div class="col-md-10">
+                <div style="color:white" class="col-md-3">SignalR Notifications</div>
+            </div>
+        </div>
+    </div>
 </div>
-
+<br />
+<div class="container">
+    <div class="secao">
+        <div class="row ng-scope">
+            <div class="col-md-5">
+                <h4 class="painel-title ng-binding">
+                    <i class="fa fa-plus "></i>
+                    &nbsp; New Customer
+                    <br>
+                </h4>
+            </div>
+        </div>
+        <br />
+        <form novalidate [formGroup]="customerForm" (ngSubmit)="save()">
+            <div class="form-group">
+                <input type="text" formControlName="name" class="form-control" placeholder="add new customer  here"
+                    name="customerName">
+            </div>
+            <input class="btn btn-success" type="submit" value="Save">
+        </form>
+    </div>
