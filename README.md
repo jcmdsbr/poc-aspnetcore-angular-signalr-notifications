@@ -1,5 +1,5 @@
 # The SignalR Notifications :sunglasses:
- * Sample from SignalR notificatiosn using .Net Core and Angular 2+
+ - Proof of Concept from SignalR notificatiosn using .Net Core and Angular 2+
 
 ## Give a Star! :star:
 If you liked the project, please give a star ;)
